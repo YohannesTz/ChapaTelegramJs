@@ -47,7 +47,13 @@ bot.command("item", async (ctx) => {
     return await ctx.replyWithInvoice(kirarInvoice);
 });
 
-bot.launch();
+//bot.launch(); //use this if you want to run it locally
+bot.launch({
+    webhook: {
+        domain: "https://chapa-telegram-js.onrender.com", 
+        port: process.env.PORT
+    }
+});
 console.log("Bot started successfully!");
 // Enable graceful stop
 process.once('SIGINT', () => bot.stop('SIGINT'));
