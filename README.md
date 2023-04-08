@@ -15,7 +15,7 @@ The first step is to create a Telegram bot. To do this, open the Telegram app an
 
 
 ## Step 2: Connect Your Bot to a Payment Gateway 
-Once your bot is created, you need to connect it to a payment gateway so that users can make payments through your bot. you can see how to do that [here](https://support.chapa.co/knowledge-base/19-how-to-integrate-telegram-bot-with-chapa)
+Once your bot is created, you need to connect it to a payment gateway so that users can make payments through your bot. you can see how to do that [here.](https://support.chapa.co/knowledge-base/19-how-to-integrate-telegram-bot-with-chapa)
 
 ## Note
 Don't forget to provide the **BOT_TOKEN** and **CHAPA_TOKEN** in your .env or enviroment variables!
