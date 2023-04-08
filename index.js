@@ -1,8 +1,5 @@
 require("dotenv").config();
 
-const { Telegraf, session, } = require('telegraf');
-const { message } = require('telegraf/filters');
-const LocalSession = require('telegraf-session-local');
 const bot = new Telegraf(process.env.BOT_TOKEN)
 const chapaToken = process.env.CHAPA_TOKEN;
 
