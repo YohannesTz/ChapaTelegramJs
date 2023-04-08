@@ -1,12 +1,12 @@
 # ChapaTelegramJs
 
-This guide provides instructions on how to create a Telegram bot with payment capability. It will walk you through the steps of setting up a Telegram bot, connecting it to a payment gateway, and integrating it into your existing Telegram chatbot. 
+This guide provides instructions on how to create a Telegram bot with chapa payment capability. you can checkout [the telegram bot here](https://t.me/izzy_souq_bot) also [the official python example from chapi here](https://github.com/Chapa-Et/chapa-telegram-bot-Python)
 
 ## Prerequisites 
 
 Before you begin, you should have the following: 
 - A Telegram account 
-- A payment chapa account 
+- A Chapa account 
 - Basic knowledge of programming languages such as JavaScript and Python 
 
 
