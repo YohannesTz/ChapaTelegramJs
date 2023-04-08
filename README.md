@@ -2,6 +2,10 @@
 
 This guide provides instructions on how to create a Telegram bot with chapa payment capability. you can checkout [the telegram bot here](https://t.me/izzy_souq_bot) also [the official python example from chapi here](https://github.com/Chapa-Et/chapa-telegram-bot-Python)
 
+## Too chad for Javascript?
+
+here you go check out [this typescript example](https://github.com/melkam5/Telegram-bot-with-chapa-payment)
+
 ## Prerequisites 
 
 Before you begin, you should have the following: 
