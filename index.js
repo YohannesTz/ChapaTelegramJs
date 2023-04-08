@@ -1,7 +1,10 @@
 require("dotenv").config();
 
+const { v4: uuidv4 } = require('uuid');
+const { Telegraf } = require('telegraf');
 const bot = new Telegraf(process.env.BOT_TOKEN)
 const chapaToken = process.env.CHAPA_TOKEN;
+
 
 const welcomeText = `
 Hi there, this is an example of how you can integerate Chapa to your telegram bot.
@@ -31,14 +34,14 @@ bot.command("item", async (ctx) => {
             { label: "Buy Kirar", amount: price * 100 }, // you would need to do this because telegram min and max check out here for more https://core.telegram.org/bots/payments/currencies.json
         ],
         currency: invoiceCurrency,
-        payload: "",
+        payload: `txRef_${uuidv4()}`,
         provider_token: chapaToken,
         photo_url: "https://i.etsystatic.com/19083762/r/il/feb451/3712093551/il_fullxfull.3712093551_58y2.jpg",
-        need_shipping_address: needShippingAddress,
+        /* need_shipping_address: needShippingAddress,
         need_name: true,
         need_phone_number: true,
         need_email: true,
-        is_flexible: true,
+        is_flexible: true, */
     }
 
     return await ctx.replyWithInvoice(kirarInvoice);

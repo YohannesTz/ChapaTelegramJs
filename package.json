@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "dotenv": "^16.0.3",
-    "telegraf": "^4.12.2"
+    "telegraf": "^4.12.2",
+    "uuid": "^9.0.0"
   }
 }
